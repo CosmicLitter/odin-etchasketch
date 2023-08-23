@@ -20,10 +20,13 @@ body {
 }
 
 .pixel {
-    background-color: rgb(179, 179, 179);
-    border: 1px solid rgb(168, 168, 168);
+    background-color: rgb(145, 145, 145);
     flex: 1;
 }
+
+/* .pixel:hover {
+    background-color: #b1b1b1;
+} */
 
 .sketch {
     width: 720px;

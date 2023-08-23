@@ -18,8 +18,14 @@ function setCanvas() {
 
         sketch.appendChild(column)
     }
+    
+    const pixels = document.querySelectorAll('.pixel')
 
+    pixels.forEach(pixel => {
+        pixel.addEventListener('mouseover', () => {
+            pixel.style.backgroundColor = '#b1b1b1';
+        })
+    })
 }
 
 setCanvas()
-
