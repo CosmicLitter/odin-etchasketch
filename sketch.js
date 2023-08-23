@@ -1,11 +1,4 @@
 const sketch = document.querySelector('.sketch')
-
-const content = document.createElement('div');
-content.classList.add('content');
-content.textContent = "This was added with Javascript";
-
-
-
 let canvasSize = 2;
 
 const canvasSelect = document.querySelector('#canvas');
