@@ -1,11 +1,10 @@
 const sketch = document.querySelector('.sketch')
-let canvasSize = 2;
 
 const canvasSelect = document.querySelector('#canvas');
 canvasSelect.addEventListener('change', setCanvas)
 
 function setCanvas() {
-    canvasSize = canvasSelect.value;
+    let canvasSize = canvasSelect.value;
     sketch.innerHTML = ''
 
     for (let x = 0; x < canvasSize; x++) {
